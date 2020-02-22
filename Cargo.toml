@@ -1,0 +1,12 @@
+[package]
+name = "rust-chat"
+description = "chat client"
+version = "0.1.0"
+authors = ["sasha", "Timofey Kondrashov"]
+
+[dependencies]
+error-chain = "0.12"
+colored = "1.9"
+log = "0.4"
+tungstenite = "0.10.1"
+workerpool = "1.2.0"
